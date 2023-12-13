@@ -1,0 +1,67 @@
+﻿html, body {
+    background: #fff;
+    margin: 0;
+}
+
+.traffic-light-container{
+    width: 100%;
+}
+
+.traffic-light {
+    width: 150px;
+    height: 335px;
+    background: #d8d8d8;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #000;
+    margin: 15px auto;
+}
+
+.light {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #000;
+}
+
+.red {
+    background: #f00;
+}
+
+.yellow {
+    background: #ff0;
+}
+
+.green {
+    background: #00b050;
+}
+
+.pos-v{
+    position: relative;
+    left: 32px;
+}
+
+.l1-pos{
+    top: 20px;
+}
+
+.l2-pos{
+    top: 40px;
+}
+
+.l3-pos{
+    top: 60px;
+}
+
+.l1-transform{
+    transform: translateX(32px) translateY(20px);
+}
+
+.l2-transform{
+    transform: translateX(32px) translateY(40px);
+}
+
+.l3-transform{
+    transform: translateX(32px) translateY(60px);
+}
