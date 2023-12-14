@@ -1,13 +1,19 @@
-﻿html, body{
+﻿* {
+    box-sizing: border-box;
+}
+
+html, body{
     width: 100%;
     height: 100%;
     margin: 0;
+    min-width: 960px;
 }
 
 header{
     width: 100%;
     height: 15%;
     background-color: #4e6eff;
+    min-height: 106px;
 }
 
 footer{
@@ -15,11 +21,13 @@ footer{
     height: 15%;
     float: bottom;
     background-color: #4e6eff;
+    min-height: 106px;
 }
 
 .central-part{
     width: 100%;
     height: 70%;
+    min-height: 450px;
 }
 
 .left{
@@ -27,6 +35,7 @@ footer{
     height: 100%;
     background-color: blueviolet;
     float: left;
+    padding: 10px;
 }
 
 .right{
@@ -34,10 +43,11 @@ footer{
     height: 100%;
     background-color: cornflowerblue;
     float: right;
+    padding: 10px;
 }
 
 img{
     object-fit: cover;
     width: 100%;
-    /*height: 100%;*/
+    height: 100%;
 }
