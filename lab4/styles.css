@@ -3,6 +3,11 @@
     --fg-color1: white;
     --bg-color2: lightblue;
     --fg-color2: black;
+    --button-bg: #3c5cff;
+    --resize-button-hover-bg: #3651c2;
+    --add-button-hover-bg: lightgreen;
+    --delete-button-hover-bg: red;
+    --button-fg: #fff;
 }
 
 .class1{
@@ -13,4 +18,34 @@
 .class2{
     background-color: var(--bg-color2);
     color: var(--fg-color2);
+}
+
+.button-panel{
+    width: 82%;
+    display: flex;
+    flex-direction: row;
+}
+
+.button-panel > button{
+    background-color: var(--button-bg);
+    height: 50px;
+    color: var(--button-fg);
+    flex: 1;
+    margin: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 1.5em;
+    transition: background-color .5s;
+}
+
+.resize-plus-button:hover, .resize-minus-button:hover{
+    background-color: var(--resize-button-hover-bg);
+}
+
+.rm-button:hover{
+    background-color: var(--delete-button-hover-bg);
+}
+
+.add-button:hover{
+    background-color: var(--add-button-hover-bg);
 }
