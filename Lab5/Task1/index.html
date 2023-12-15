@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Input Form</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="JavaScript. «Події. Регулярні вирази»">
+    <meta name="keywords" content="Validation form">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div id="form-container">
+    <form>
+        <label for="fullname">ПІБ:</label><br>
+        <input type="text" id="fullname" name="fullname" placeholder="Шиманська Г.А."><br><br>
+        <label for="variant">Варіант:</label><br>
+        <input type="text" id="variant" name="variant" placeholder="01"><br><br>
+        <label for="groupname">Група:</label><br>
+        <input type="text" id="groupname" name="groupname" placeholder="ІП-13"><br><br>
+        <label for="phone">Телефон:</label><br>
+        <input type="text" id="phone" name="phone" placeholder="(063)-578-42-13"><br><br>
+        <label for="IdCard">Номер ID-картки:</label><br>
+        <input type="text" id="IdCard" name="IdCard" placeholder="ТТ №000000"><br><br>
+        <input type="submit" id="submit-button" value="Validate" name="Submit" onClick="return ValidateFormData(this.form)">
+    </form>
+</div>
+</body>
+<script src="./validations.js"></script>
+</html>
