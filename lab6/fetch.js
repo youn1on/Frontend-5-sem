@@ -1,5 +1,5 @@
 ﻿const upperLimit = 50;
-const lowerLimit = 1;
+const lowerLimit = 0;
 
 document.addEventListener('DOMContentLoaded', function () {
 	const fetchDataButton = document.getElementById("fetchButton");
